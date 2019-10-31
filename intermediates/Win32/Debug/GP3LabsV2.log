@@ -1,0 +1,64 @@
+﻿  Application.cpp
+  Camera.cpp
+  CameraComp.cpp
+  Entity.cpp
+  GPLabsV2.cpp
+  Input.cpp
+C:\Users\Ramón\source\repos\GP3LabsV2\GP3LabsV2\Application.cpp(101,12): warning C4101: 'currentRot': unreferenced local variable
+C:\Users\Ramón\source\repos\GP3LabsV2\GP3LabsV2\Input.cpp(26,12): warning C4018: '<': signed/unsigned mismatch
+  Log.cpp
+  Mesh.cpp
+  MeshRenderer.cpp
+  Shader.cpp
+  ShaderProgram.cpp
+  Texture.cpp
+  Transform.cpp
+  Generating Code...
+C:\Users\Ramón\source\repos\GP3LabsV2\GP3LabsV2\Input.cpp(40,12): warning C4018: '<': signed/unsigned mismatch
+Application.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "private: void __thiscall Application::OpenGlinit(void)" (?OpenGlinit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol __imp__glewGetErrorString@4 referenced in function "private: void __thiscall Application::OpenGlinit(void)" (?OpenGlinit@Application@@AAEXXZ)
+Log.obj : error LNK2001: unresolved external symbol __imp__glewGetErrorString@4
+Application.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "private: void __thiscall Application::Quit(void)" (?Quit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_SetAttribute referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_CreateContext referenced in function "private: void __thiscall Application::OpenGlinit(void)" (?OpenGlinit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_SetSwapInterval referenced in function "private: void __thiscall Application::OpenGlinit(void)" (?OpenGlinit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_SwapWindow referenced in function "private: void __thiscall Application::Loop(void)" (?Loop@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_DeleteContext referenced in function "private: void __thiscall Application::Quit(void)" (?Quit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_CaptureMouse referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "private: void __thiscall Application::Loop(void)" (?Loop@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_QuitSubSystem referenced in function "private: void __thiscall Application::Quit(void)" (?Quit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "private: void __thiscall Application::Quit(void)" (?Quit@Application@@AAEXXZ)
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+MeshRenderer.obj : error LNK2001: unresolved external symbol __imp____glewGetUniformLocation
+MeshRenderer.obj : error LNK2001: unresolved external symbol __imp____glewUniform3f
+MeshRenderer.obj : error LNK2001: unresolved external symbol __imp____glewUniformMatrix4fv
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp____glewBindAttribLocation
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp____glewDeleteProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+Texture.obj : error LNK2001: unresolved external symbol __imp____glewActiveTexture
+Texture.obj : error LNK2001: unresolved external symbol __imp____glewGenerateMipmap
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Ram¾n\source\repos\GP3LabsV2\dependencies\libs\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Ram¾n\source\repos\GP3LabsV2\dependencies\libs\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Ram¾n\source\repos\GP3LabsV2\dependencies\libs\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Ram¾n\source\repos\GP3LabsV2\bin\Win32\Debug\GP3LabsV2.exe : fatal error LNK1120: 42 unresolved externals
