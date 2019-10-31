@@ -49,7 +49,6 @@ bool Input::GetKeyDown(SDL_Keycode key)
 	if (key != NULL) 
 	{
 		LOG_DEBUG("key down", errType::TRACE);
-		GetMousePos();
 		return true;
 	}
 	else

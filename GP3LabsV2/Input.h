@@ -21,7 +21,7 @@ public:
 	glm::ivec2 GetMousePos() 
 	{ 
 		
-		LOG_DEBUG(std::to_string(m_state.mousePos.y), errType::TRACE);
+		
 		return m_state.mousePos;
 	}
 	void MoveMouse(glm::ivec2 delta) { m_state.mousePos += delta; }
