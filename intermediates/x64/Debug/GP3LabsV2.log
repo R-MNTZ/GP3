@@ -1,8 +1,8 @@
-﻿  GPLabsV2.cpp
-  GP3LabsV2.vcxproj -> C:\Users\Ramón\source\repos\GP3LabsV2\bin\x64\Debug\GP3LabsV2.exe
-  No se encuentra el archivo: dlls
-  0 archivo(s) copiado(s)
-  C:\Users\Ramón\source\repos\GP3LabsV2\assets\simple_FRAG.glsl
-  C:\Users\Ramón\source\repos\GP3LabsV2\assets\simple_VERT.glsl
-  C:\Users\Ramón\source\repos\GP3LabsV2\assets\Wood.jpg
-  3 archivo(s) copiado(s)
+﻿  Model.cpp
+  Resources.cpp
+  Generating Code...
+Model.obj : error LNK2019: unresolved external symbol "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ) referenced in function "private: void __cdecl Model::Load(void)" (?Load@Model@@AEAAXXZ)
+Model.obj : error LNK2019: unresolved external symbol "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ) referenced in function "private: void __cdecl Model::Load(void)" (?Load@Model@@AEAAXXZ)
+Model.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z) referenced in function "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ) referenced in function "private: void __cdecl Model::Load(void)" (?Load@Model@@AEAAXXZ)
+C:\Users\Ram¾n\source\repos\GP3LabsV2\bin\x64\Debug\GP3LabsV2.exe : fatal error LNK1120: 4 unresolved externals

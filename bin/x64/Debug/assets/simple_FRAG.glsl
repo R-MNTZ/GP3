@@ -2,14 +2,14 @@
 
 uniform vec3 objectColor;
 uniform sampler2D diffuse;
-in VertexData{
-in vec2 texCoord0;
-} Vertex;
+
+in vec2 texCoords0;
+
 
 void main()
 {
 	 
-	    gl_FragColor = texture2D(diffuse, Vertex.texCoord0);
+	    gl_FragColor = texture2D(diffuse, texCoords0);
 	 
     
 }

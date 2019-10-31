@@ -131,6 +131,15 @@ void Application::Loop()
 			case SDLK_ESCAPE:
 				Quit();
 				break;
+
+			case SDLK_w:
+				m_entities.at(1)->GetTransform()->AddPosition(glm::vec3(0.f, 2.f,0.f));
+				break;
+
+			case SDLK_s:
+				m_entities.at(1)->GetTransform()->AddPosition(glm::vec3(0.f, -2.f, 0.f));
+				break;
+
 			case SDLK_a:
 				rot = glm::angleAxis(glm::radians(rotateA), xAxis);
 				//currentRot = m_entities.at(0)->GetTransform()->GetRotation();

@@ -18,7 +18,12 @@ public:
 	bool GetKeyDown(SDL_Keycode key);
 	bool GetKeyUp(SDL_Keycode key);
 
-	glm::ivec2 GetMousePos() { return m_state.mousePos; }
+	glm::ivec2 GetMousePos() 
+	{ 
+		
+		LOG_DEBUG(std::to_string(m_state.mousePos.y), errType::TRACE);
+		return m_state.mousePos;
+	}
 	void MoveMouse(glm::ivec2 delta) { m_state.mousePos += delta; }
 
 
