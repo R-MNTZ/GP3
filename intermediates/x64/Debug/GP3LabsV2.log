@@ -1,12 +1,7 @@
-﻿  Application.cpp
-  CameraComp.cpp
-  Input.cpp
-  Generating Code...
-C:\Users\Ramón\source\repos\GP3LabsV2\GP3LabsV2\Application.cpp(101,12): warning C4101: 'currentRot': unreferenced local variable
-  GP3LabsV2.vcxproj -> C:\Users\Ramón\source\repos\GP3LabsV2\bin\x64\Debug\GP3LabsV2.exe
-  No se encuentra el archivo: dlls
-  0 archivo(s) copiado(s)
-  C:\Users\Ramón\source\repos\GP3LabsV2\assets\simple_FRAG.glsl
-  C:\Users\Ramón\source\repos\GP3LabsV2\assets\simple_VERT.glsl
-  C:\Users\Ramón\source\repos\GP3LabsV2\assets\Wood.jpg
-  3 archivo(s) copiado(s)
+﻿  GP3LabsV2.vcxproj -> C:\Users\rmarti215\Desktop\GP3LabsV2\bin\x64\Debug\GP3LabsV2.exe
+  File not found - dlls
+  0 File(s) copied
+  C:\Users\rmarti215\Desktop\GP3LabsV2\assets\simple_FRAG.glsl
+  C:\Users\rmarti215\Desktop\GP3LabsV2\assets\simple_VERT.glsl
+  C:\Users\rmarti215\Desktop\GP3LabsV2\assets\Wood.jpg
+  3 File(s) copied
